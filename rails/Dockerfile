@@ -20,8 +20,8 @@ RUN chmod +x /etc/profile.d/rbenv.sh
 ENV RBENV_ROOT /usr/local/rbenv
 ENV PATH /usr/local/rbenv/shims:/usr/local/rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-RUN rbenv install 2.0.0-p353
-RUN rbenv global 2.0.0-p353
+RUN rbenv install 2.1.0
+RUN rbenv global 2.1.0
 
 RUN mkdir /root/.ssh
 RUN chmod 700 /root/.ssh
